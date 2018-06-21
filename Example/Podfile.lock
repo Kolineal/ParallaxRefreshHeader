@@ -1,0 +1,16 @@
+PODS:
+  - ParallaxRefreshHeader (0.1.0)
+
+DEPENDENCIES:
+  - ParallaxRefreshHeader (from `../`)
+
+EXTERNAL SOURCES:
+  ParallaxRefreshHeader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ParallaxRefreshHeader: ffc2b34d24ffbd40f7bd192835306a47182cfc16
+
+PODFILE CHECKSUM: f05fec5834419481a5aa05f59144dbc3632db901
+
+COCOAPODS: 1.4.0.beta.2

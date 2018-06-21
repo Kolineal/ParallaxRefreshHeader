@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0823FFFD853084BA85BDB8D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		244A7D045498A5775E694385 /* ParallaxRefreshHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ParallaxRefreshHeader.podspec; path = ../ParallaxRefreshHeader.podspec; sourceTree = "<group>"; };
-		26C6E587E18D9767C3D19D86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0823FFFD853084BA85BDB8D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		244A7D045498A5775E694385 /* ParallaxRefreshHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ParallaxRefreshHeader.podspec; path = ../ParallaxRefreshHeader.podspec; sourceTree = "<group>"; };
+		26C6E587E18D9767C3D19D86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		364AB233855DE15DDE333C24 /* Pods-ParallaxRefreshHeader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxRefreshHeader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParallaxRefreshHeader_Tests/Pods-ParallaxRefreshHeader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		486E7D9EF460A0D79C6BD4A2 /* Pods-ParallaxRefreshHeader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParallaxRefreshHeader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParallaxRefreshHeader_Example/Pods-ParallaxRefreshHeader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59F4393CD828D5013BD08176 /* Pods_ParallaxRefreshHeader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParallaxRefreshHeader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Q63FRD6E73;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Q63FRD6E73;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,6 +519,7 @@
 			baseConfigurationReference = 486E7D9EF460A0D79C6BD4A2 /* Pods-ParallaxRefreshHeader_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q63FRD6E73;
 				INFOPLIST_FILE = ParallaxRefreshHeader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +535,7 @@
 			baseConfigurationReference = 94FF962A67502F1DBBBD0B5F /* Pods-ParallaxRefreshHeader_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q63FRD6E73;
 				INFOPLIST_FILE = ParallaxRefreshHeader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 364AB233855DE15DDE333C24 /* Pods-ParallaxRefreshHeader_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Q63FRD6E73;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF601E48F5AA24392CBF9261 /* Pods-ParallaxRefreshHeader_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Q63FRD6E73;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

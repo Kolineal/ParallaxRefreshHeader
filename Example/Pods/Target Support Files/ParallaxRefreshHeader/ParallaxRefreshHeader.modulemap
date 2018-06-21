@@ -1,0 +1,6 @@
+framework module ParallaxRefreshHeader {
+  umbrella header "ParallaxRefreshHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,10 +7,16 @@
 //
 
 import UIKit
+import ParallaxRefreshHeader
 
 class ViewController: UIViewController {
 
+//  var collectionView : ParallaxRefreshCollectionView = ParallaxRefreshCollectionView()
     override func viewDidLoad() {
+        let coll = ParallaxRefreshCollectionView()
+        coll.parallaxHeader.pullToRefresh.addRefreshAction {
+          print("hello")
+        }
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
