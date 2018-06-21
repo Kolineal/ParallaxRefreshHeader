@@ -29,8 +29,8 @@ s.source           = { :git => 'https://github.com/Kolineal/ParallaxRefreshHeade
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '8.0'
-/Users/apple/Documents/XcodeProjects/My Cocoa Pods/ParallaxRefreshHeader/ParallaxRefreshHeader/ParallaxRefreshHeader/Classes/ParallaxHeader/ParallaxHeader.swift
-s.source_files = 'ParallaxRefreshHeader/Classes/**/*.swift'
+
+s.source_files = 'ParallaxRefreshHeader/Classes/**/*'
 # s.resource_bundles = {
 #   'ParallaxRefreshHeader' => ['ParallaxRefreshHeader/Assets/*.png']
 # }
