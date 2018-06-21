@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol ParallaxAndRefreshCompatible: NSObjectProtocol {
+public protocol ParallaxAndRefreshCompatible: NSObjectProtocol {
   var parallaxHeader: ParallaxHeader {get set}
   var topPullToRefresh: PullToRefresh? {get set}
   var bottomPullToRefresh: PullToRefresh? {get set}
@@ -65,7 +65,7 @@ extension ParallaxAndRefreshCompatible {
     
     return CGRect(x: 0, y: originY, width: scrollView.frame.width, height: view.frame.height)
   }
-  func refresher(at position: Position) -> PullToRefresh? {
+  public func refresher(at position: Position) -> PullToRefresh? {
     switch position {
     case .top:
       return topPullToRefresh
@@ -74,7 +74,7 @@ extension ParallaxAndRefreshCompatible {
       return bottomPullToRefresh
     }
   }
-  func removePullToRefresh(at position: Position) {
+  public func removePullToRefresh(at position: Position) {
     switch position {
     case .top:
       topPullToRefresh?.refreshView.removeFromSuperview()
@@ -85,12 +85,12 @@ extension ParallaxAndRefreshCompatible {
       bottomPullToRefresh = nil
     }
   }
-  func removeAllPullToRefresh() {
+  public func removeAllPullToRefresh() {
     removePullToRefresh(at: Position.top)
     removePullToRefresh(at: Position.bottom)
   }
   
-  func startRefreshing(at position: Position) {
+  public func startRefreshing(at position: Position) {
     switch position {
     case .top:
       topPullToRefresh?.startRefreshing()
@@ -100,7 +100,7 @@ extension ParallaxAndRefreshCompatible {
     }
   }
   
-  func endRefreshing(at position: Position) {
+  public func endRefreshing(at position: Position) {
     switch position {
     case .top:
       topPullToRefresh?.endRefreshing()
@@ -110,7 +110,7 @@ extension ParallaxAndRefreshCompatible {
     }
   }
   
-  func endAllRefreshing() {
+  public func endAllRefreshing() {
     endRefreshing(at: Position.top)
     endRefreshing(at: Position.bottom)
   }

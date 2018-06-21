@@ -25,11 +25,11 @@ public class ParallaxRefreshCollectionView : UICollectionView, ParallaxAndRefres
     }
   }
   
-  var topPullToRefresh: PullToRefresh? = nil
+  public var topPullToRefresh: PullToRefresh? = nil
   
-  var bottomPullToRefresh: PullToRefresh? = nil
+  public var bottomPullToRefresh: PullToRefresh? = nil
   
-  var normalizedContentOffset: CGPoint {
+  public var normalizedContentOffset: CGPoint {
     get {
       let contentOffset = self.contentOffset
       let contentInset = self.effectiveContentInset
@@ -39,7 +39,7 @@ public class ParallaxRefreshCollectionView : UICollectionView, ParallaxAndRefres
     }
   }
   
-  var effectiveContentInset: UIEdgeInsets {
+  public var effectiveContentInset: UIEdgeInsets {
     get {
       if #available(iOS 11, *) {
         return adjustedContentInset
@@ -56,7 +56,7 @@ public class ParallaxRefreshCollectionView : UICollectionView, ParallaxAndRefres
       }
     }
   }
-  func addPullToRefresh(_ pullToRefresh: PullToRefresh, action: @escaping () -> ()) {
+  public func addPullToRefresh(_ pullToRefresh: PullToRefresh, action: @escaping () -> ()) {
     pullToRefresh.scrollView = self
     
     let view = pullToRefresh.refreshView
@@ -73,7 +73,7 @@ public class ParallaxRefreshCollectionView : UICollectionView, ParallaxAndRefres
     view.frame = defaultFrame(forPullToRefresh: pullToRefresh)
     
   }
-  func defaultFrame(forPullToRefresh pullToRefresh: PullToRefresh) -> CGRect {
+  public func defaultFrame(forPullToRefresh pullToRefresh: PullToRefresh) -> CGRect {
     let view = pullToRefresh.refreshView
     var originY: CGFloat
     switch pullToRefresh.position {

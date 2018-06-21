@@ -14,3 +14,4 @@
 FOUNDATION_EXPORT double ParallaxRefreshHeaderVersionNumber;
 FOUNDATION_EXPORT const unsigned char ParallaxRefreshHeaderVersionString[];
 
+
