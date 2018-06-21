@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1887004C20DB9E3D0034A0DB /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887003F20DB9E3D0034A0DB /* ParallaxHeaderMode.swift */; };
-		1887004D20DB9E3D0034A0DB /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004020DB9E3D0034A0DB /* ParallaxHeader.swift */; };
-		1887004E20DB9E3D0034A0DB /* ParallaxRefreshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004220DB9E3D0034A0DB /* ParallaxRefreshTableView.swift */; };
-		1887004F20DB9E3D0034A0DB /* ParallaxRefreshScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004320DB9E3D0034A0DB /* ParallaxRefreshScrollView.swift */; };
-		1887005020DB9E3D0034A0DB /* ParallaxRefreshCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004420DB9E3D0034A0DB /* ParallaxRefreshCollectionView.swift */; };
-		1887005120DB9E3D0034A0DB /* ParallaxRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004520DB9E3D0034A0DB /* ParallaxRefreshProtocol.swift */; };
-		1887005220DB9E3D0034A0DB /* DefaultRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004720DB9E3D0034A0DB /* DefaultRefreshView.swift */; };
-		1887005320DB9E3D0034A0DB /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004820DB9E3D0034A0DB /* PullToRefresh.swift */; };
-		1887005420DB9E3D0034A0DB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004920DB9E3D0034A0DB /* State.swift */; };
-		1887005520DB9E3D0034A0DB /* DefaultViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004A20DB9E3D0034A0DB /* DefaultViewAnimator.swift */; };
-		1887005620DB9E3D0034A0DB /* RefreshViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887004B20DB9E3D0034A0DB /* RefreshViewAnimator.swift */; };
+		1887006520DBA7310034A0DB /* DefaultRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005820DBA7310034A0DB /* DefaultRefreshView.swift */; };
+		1887006620DBA7310034A0DB /* DefaultRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005820DBA7310034A0DB /* DefaultRefreshView.swift */; };
+		1887006720DBA7310034A0DB /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005920DBA7310034A0DB /* PullToRefresh.swift */; };
+		1887006820DBA7310034A0DB /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005920DBA7310034A0DB /* PullToRefresh.swift */; };
+		1887006920DBA7310034A0DB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005A20DBA7310034A0DB /* State.swift */; };
+		1887006A20DBA7310034A0DB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005A20DBA7310034A0DB /* State.swift */; };
+		1887006B20DBA7310034A0DB /* DefaultViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005B20DBA7310034A0DB /* DefaultViewAnimator.swift */; };
+		1887006C20DBA7310034A0DB /* DefaultViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005B20DBA7310034A0DB /* DefaultViewAnimator.swift */; };
+		1887006D20DBA7310034A0DB /* RefreshViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005C20DBA7310034A0DB /* RefreshViewAnimator.swift */; };
+		1887006E20DBA7310034A0DB /* RefreshViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005C20DBA7310034A0DB /* RefreshViewAnimator.swift */; };
+		1887006F20DBA7310034A0DB /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005E20DBA7310034A0DB /* ParallaxHeaderMode.swift */; };
+		1887007020DBA7310034A0DB /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005E20DBA7310034A0DB /* ParallaxHeaderMode.swift */; };
+		1887007120DBA7310034A0DB /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005F20DBA7310034A0DB /* ParallaxHeader.swift */; };
+		1887007220DBA7310034A0DB /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887005F20DBA7310034A0DB /* ParallaxHeader.swift */; };
+		1887007320DBA7310034A0DB /* ParallaxRefreshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006120DBA7310034A0DB /* ParallaxRefreshTableView.swift */; };
+		1887007420DBA7310034A0DB /* ParallaxRefreshTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006120DBA7310034A0DB /* ParallaxRefreshTableView.swift */; };
+		1887007520DBA7310034A0DB /* ParallaxRefreshScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006220DBA7310034A0DB /* ParallaxRefreshScrollView.swift */; };
+		1887007620DBA7310034A0DB /* ParallaxRefreshScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006220DBA7310034A0DB /* ParallaxRefreshScrollView.swift */; };
+		1887007720DBA7310034A0DB /* ParallaxRefreshCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006320DBA7310034A0DB /* ParallaxRefreshCollectionView.swift */; };
+		1887007820DBA7310034A0DB /* ParallaxRefreshCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006320DBA7310034A0DB /* ParallaxRefreshCollectionView.swift */; };
+		1887007920DBA7310034A0DB /* ParallaxRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006420DBA7310034A0DB /* ParallaxRefreshProtocol.swift */; };
+		1887007A20DBA7310034A0DB /* ParallaxRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887006420DBA7310034A0DB /* ParallaxRefreshProtocol.swift */; };
 		1F0E20DA79C6A6D31463E8A18CEE6170 /* Pods-ParallaxRefreshHeader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BA8EF39D34FBD0C8041F707B89DA7 /* Pods-ParallaxRefreshHeader_Example-dummy.m */; };
 		2749412688E193133E8247465B8F5B85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2ACB087E38539EEC607F000F1777DB1B /* Pods-ParallaxRefreshHeader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA8E4DE5B216E017AA8CA32BEDBBDF0 /* Pods-ParallaxRefreshHeader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,17 +55,17 @@
 		080C1ED78334EE852E32D0526EBDBB14 /* ParallaxRefreshHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParallaxRefreshHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1735D2735BE1E2B1DAF75CCC4AAF84 /* Pods-ParallaxRefreshHeader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParallaxRefreshHeader_Example-umbrella.h"; sourceTree = "<group>"; };
 		10686E49A295044146E04EE7B9B532A2 /* ParallaxRefreshHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParallaxRefreshHeader.xcconfig; sourceTree = "<group>"; };
-		1887003F20DB9E3D0034A0DB /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
-		1887004020DB9E3D0034A0DB /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
-		1887004220DB9E3D0034A0DB /* ParallaxRefreshTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshTableView.swift; sourceTree = "<group>"; };
-		1887004320DB9E3D0034A0DB /* ParallaxRefreshScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshScrollView.swift; sourceTree = "<group>"; };
-		1887004420DB9E3D0034A0DB /* ParallaxRefreshCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshCollectionView.swift; sourceTree = "<group>"; };
-		1887004520DB9E3D0034A0DB /* ParallaxRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshProtocol.swift; sourceTree = "<group>"; };
-		1887004720DB9E3D0034A0DB /* DefaultRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRefreshView.swift; sourceTree = "<group>"; };
-		1887004820DB9E3D0034A0DB /* PullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
-		1887004920DB9E3D0034A0DB /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		1887004A20DB9E3D0034A0DB /* DefaultViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewAnimator.swift; sourceTree = "<group>"; };
-		1887004B20DB9E3D0034A0DB /* RefreshViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshViewAnimator.swift; sourceTree = "<group>"; };
+		1887005820DBA7310034A0DB /* DefaultRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRefreshView.swift; sourceTree = "<group>"; };
+		1887005920DBA7310034A0DB /* PullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefresh.swift; sourceTree = "<group>"; };
+		1887005A20DBA7310034A0DB /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		1887005B20DBA7310034A0DB /* DefaultViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewAnimator.swift; sourceTree = "<group>"; };
+		1887005C20DBA7310034A0DB /* RefreshViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshViewAnimator.swift; sourceTree = "<group>"; };
+		1887005E20DBA7310034A0DB /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		1887005F20DBA7310034A0DB /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		1887006120DBA7310034A0DB /* ParallaxRefreshTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshTableView.swift; sourceTree = "<group>"; };
+		1887006220DBA7310034A0DB /* ParallaxRefreshScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshScrollView.swift; sourceTree = "<group>"; };
+		1887006320DBA7310034A0DB /* ParallaxRefreshCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshCollectionView.swift; sourceTree = "<group>"; };
+		1887006420DBA7310034A0DB /* ParallaxRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxRefreshProtocol.swift; sourceTree = "<group>"; };
 		1FEBC8E1D53D99707545C5313076EC50 /* Pods-ParallaxRefreshHeader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParallaxRefreshHeader_Tests-dummy.m"; sourceTree = "<group>"; };
 		223AE579EF8B7D281A763A2DC6A329E3 /* Pods-ParallaxRefreshHeader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParallaxRefreshHeader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		31BBF6F0DF97B95ECA3D24F9BEC83B75 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ParallaxRefreshHeader/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
@@ -114,36 +125,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1887003E20DB9E3D0034A0DB /* ParallaxHeader */ = {
+		1887005720DBA7310034A0DB /* PullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				1887003F20DB9E3D0034A0DB /* ParallaxHeaderMode.swift */,
-				1887004020DB9E3D0034A0DB /* ParallaxHeader.swift */,
+				1887005820DBA7310034A0DB /* DefaultRefreshView.swift */,
+				1887005920DBA7310034A0DB /* PullToRefresh.swift */,
+				1887005A20DBA7310034A0DB /* State.swift */,
+				1887005B20DBA7310034A0DB /* DefaultViewAnimator.swift */,
+				1887005C20DBA7310034A0DB /* RefreshViewAnimator.swift */,
 			);
-			path = ParallaxHeader;
+			name = PullToRefresh;
+			path = ParallaxRefreshHeader/Classes/PullToRefresh;
 			sourceTree = "<group>";
 		};
-		1887004120DB9E3D0034A0DB /* Protocol and Base Classes */ = {
+		1887005D20DBA7310034A0DB /* ParallaxHeader */ = {
 			isa = PBXGroup;
 			children = (
-				1887004220DB9E3D0034A0DB /* ParallaxRefreshTableView.swift */,
-				1887004320DB9E3D0034A0DB /* ParallaxRefreshScrollView.swift */,
-				1887004420DB9E3D0034A0DB /* ParallaxRefreshCollectionView.swift */,
-				1887004520DB9E3D0034A0DB /* ParallaxRefreshProtocol.swift */,
+				1887005E20DBA7310034A0DB /* ParallaxHeaderMode.swift */,
+				1887005F20DBA7310034A0DB /* ParallaxHeader.swift */,
 			);
-			path = "Protocol and Base Classes";
+			name = ParallaxHeader;
+			path = ParallaxRefreshHeader/Classes/ParallaxHeader;
 			sourceTree = "<group>";
 		};
-		1887004620DB9E3D0034A0DB /* PullToRefresh */ = {
+		1887006020DBA7310034A0DB /* Protocol and Base Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1887004720DB9E3D0034A0DB /* DefaultRefreshView.swift */,
-				1887004820DB9E3D0034A0DB /* PullToRefresh.swift */,
-				1887004920DB9E3D0034A0DB /* State.swift */,
-				1887004A20DB9E3D0034A0DB /* DefaultViewAnimator.swift */,
-				1887004B20DB9E3D0034A0DB /* RefreshViewAnimator.swift */,
+				1887006120DBA7310034A0DB /* ParallaxRefreshTableView.swift */,
+				1887006220DBA7310034A0DB /* ParallaxRefreshScrollView.swift */,
+				1887006320DBA7310034A0DB /* ParallaxRefreshCollectionView.swift */,
+				1887006420DBA7310034A0DB /* ParallaxRefreshProtocol.swift */,
 			);
-			path = PullToRefresh;
+			name = "Protocol and Base Classes";
+			path = "ParallaxRefreshHeader/Classes/Protocol and Base Classes";
 			sourceTree = "<group>";
 		};
 		30C91035D1DFCBE643BD946D38E2B080 /* Pods-ParallaxRefreshHeader_Tests */ = {
@@ -176,9 +190,9 @@
 		4F5AA7E9C6B19B6202DFED834F0B2A87 /* ParallaxRefreshHeader */ = {
 			isa = PBXGroup;
 			children = (
-				1887003E20DB9E3D0034A0DB /* ParallaxHeader */,
-				1887004120DB9E3D0034A0DB /* Protocol and Base Classes */,
-				1887004620DB9E3D0034A0DB /* PullToRefresh */,
+				1887005D20DBA7310034A0DB /* ParallaxHeader */,
+				1887006020DBA7310034A0DB /* Protocol and Base Classes */,
+				1887005720DBA7310034A0DB /* PullToRefresh */,
 				31BBF6F0DF97B95ECA3D24F9BEC83B75 /* ReplaceMe.swift */,
 				64FDA34327E87FD3472BD7BC989EE187 /* Support Files */,
 			);
@@ -378,7 +392,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1887007620DBA7310034A0DB /* ParallaxRefreshScrollView.swift in Sources */,
+				1887006620DBA7310034A0DB /* DefaultRefreshView.swift in Sources */,
+				1887007A20DBA7310034A0DB /* ParallaxRefreshProtocol.swift in Sources */,
+				1887006E20DBA7310034A0DB /* RefreshViewAnimator.swift in Sources */,
+				1887006820DBA7310034A0DB /* PullToRefresh.swift in Sources */,
+				1887007420DBA7310034A0DB /* ParallaxRefreshTableView.swift in Sources */,
 				1F0E20DA79C6A6D31463E8A18CEE6170 /* Pods-ParallaxRefreshHeader_Example-dummy.m in Sources */,
+				1887006C20DBA7310034A0DB /* DefaultViewAnimator.swift in Sources */,
+				1887007820DBA7310034A0DB /* ParallaxRefreshCollectionView.swift in Sources */,
+				1887007220DBA7310034A0DB /* ParallaxHeader.swift in Sources */,
+				1887007020DBA7310034A0DB /* ParallaxHeaderMode.swift in Sources */,
+				1887006A20DBA7310034A0DB /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,19 +419,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1887004F20DB9E3D0034A0DB /* ParallaxRefreshScrollView.swift in Sources */,
+				1887007120DBA7310034A0DB /* ParallaxHeader.swift in Sources */,
+				1887006520DBA7310034A0DB /* DefaultRefreshView.swift in Sources */,
+				1887007920DBA7310034A0DB /* ParallaxRefreshProtocol.swift in Sources */,
+				1887006B20DBA7310034A0DB /* DefaultViewAnimator.swift in Sources */,
+				1887006720DBA7310034A0DB /* PullToRefresh.swift in Sources */,
+				1887007320DBA7310034A0DB /* ParallaxRefreshTableView.swift in Sources */,
+				1887007720DBA7310034A0DB /* ParallaxRefreshCollectionView.swift in Sources */,
+				1887007520DBA7310034A0DB /* ParallaxRefreshScrollView.swift in Sources */,
+				1887006D20DBA7310034A0DB /* RefreshViewAnimator.swift in Sources */,
 				38A70251C6E50968BE6D1F22FBD846FA /* ParallaxRefreshHeader-dummy.m in Sources */,
-				1887004D20DB9E3D0034A0DB /* ParallaxHeader.swift in Sources */,
-				1887005420DB9E3D0034A0DB /* State.swift in Sources */,
-				1887005620DB9E3D0034A0DB /* RefreshViewAnimator.swift in Sources */,
-				1887005320DB9E3D0034A0DB /* PullToRefresh.swift in Sources */,
-				1887005220DB9E3D0034A0DB /* DefaultRefreshView.swift in Sources */,
+				1887006920DBA7310034A0DB /* State.swift in Sources */,
+				1887006F20DBA7310034A0DB /* ParallaxHeaderMode.swift in Sources */,
 				7C7D68EDCE5CD1FB81EEEB0657143D65 /* ReplaceMe.swift in Sources */,
-				1887005520DB9E3D0034A0DB /* DefaultViewAnimator.swift in Sources */,
-				1887004C20DB9E3D0034A0DB /* ParallaxHeaderMode.swift in Sources */,
-				1887004E20DB9E3D0034A0DB /* ParallaxRefreshTableView.swift in Sources */,
-				1887005120DB9E3D0034A0DB /* ParallaxRefreshProtocol.swift in Sources */,
-				1887005020DB9E3D0034A0DB /* ParallaxRefreshCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

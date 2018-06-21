@@ -31,7 +31,6 @@ s.source           = { :git => 'https://github.com/Kolineal/ParallaxRefreshHeade
 s.ios.deployment_target = '8.0'
 
 s.source_files = 'ParallaxRefreshHeader/Classes/**/*{h,m,swift}'
-
 # s.resource_bundles = {
 #   'ParallaxRefreshHeader' => ['ParallaxRefreshHeader/Assets/*.png']
 # }
