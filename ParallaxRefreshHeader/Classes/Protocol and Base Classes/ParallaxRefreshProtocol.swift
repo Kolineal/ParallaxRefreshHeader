@@ -27,7 +27,7 @@ public protocol ParallaxAndRefreshCompatible: NSObjectProtocol {
   func endAllRefreshing()
 }
 
-extension ParallaxAndRefreshCompatible {
+public extension ParallaxAndRefreshCompatible {
   
   func addPullToRefresh(_ pullToRefresh: PullToRefresh, action: @escaping () -> ()) {
     if !self.isKind(of: UIScrollView.self) {
