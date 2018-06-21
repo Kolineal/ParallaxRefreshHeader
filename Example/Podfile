@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ParallaxRefreshHeader_Example' do
+  pod 'ParallaxRefreshHeader', :path => '../'
+
+  target 'ParallaxRefreshHeader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
