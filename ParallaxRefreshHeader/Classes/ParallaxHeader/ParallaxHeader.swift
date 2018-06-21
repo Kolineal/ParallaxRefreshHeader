@@ -70,7 +70,7 @@ public class ParallaxHeader: NSObject {
   fileprivate var isObserving = false
   private var originalInset: CGFloat = 0
   private weak var _scrollView: (UIScrollView & ParallaxAndRefreshCompatible)?
-  var scrollView: (UIScrollView & ParallaxAndRefreshCompatible)! {
+  public var scrollView: (UIScrollView & ParallaxAndRefreshCompatible)! {
     get {
       return _scrollView
     }
