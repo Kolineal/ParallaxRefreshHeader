@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'ParallaxRefreshHeader'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = 'Parallax Header for UIScrollView based views. Includes pull to refresh comtroll that is shown under the header'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ s.source           = { :git => 'https://github.com/Kolineal/ParallaxRefreshHeade
 
 s.ios.deployment_target = '8.0'
 /Users/apple/Documents/XcodeProjects/My Cocoa Pods/ParallaxRefreshHeader/ParallaxRefreshHeader/ParallaxRefreshHeader/Classes/ParallaxHeader/ParallaxHeader.swift
-s.source_files = 'ParallaxRefreshHeader/Classes/**/*.{h,m,swift}'
+s.source_files = 'ParallaxRefreshHeader/Classes/**/*.swift'
 # s.resource_bundles = {
 #   'ParallaxRefreshHeader' => ['ParallaxRefreshHeader/Assets/*.png']
 # }
