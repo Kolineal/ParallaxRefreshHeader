@@ -95,8 +95,6 @@ public class PullToRefresh: NSObject {
             if stateString != "releasing"{
               stateString = "releasing"
             }
-          default:
-            stateString = "initial"
           }
           
             animator.animate(state)
@@ -128,8 +126,6 @@ public class PullToRefresh: NSObject {
             stateString = "finished"
           case .releasing(_):
             stateString = "releasing"
-          default:
-            stateString = "initial"
           }
         }
     }
@@ -293,7 +289,7 @@ private extension PullToRefresh {
     }
     
     func animateLoadingState() {
-        guard !isOppositeRefresherLoading, let scrollView = scrollView else {
+        guard !isOppositeRefresherLoading,  scrollView != nil else {
             return
         }
         action?()

@@ -13,10 +13,7 @@ import ObjectiveC.runtime
 public typealias ParallaxHeaderHandlerBlock = (_ parallaxHeader: ParallaxHeader)->Void
 
 
-private let parallaxHeaderKVOContext = UnsafeMutableRawPointer.allocate(
-    bytes: 4,
-    alignedTo: 1
-)
+private var parallaxHeaderKVOContext = "paralaxContext"
 
 open class ParallaxView: UIView {
     
@@ -31,7 +28,7 @@ open class ParallaxView: UIView {
             forKeyPath: NSStringFromSelector(
                 #selector(getter: scrollView.contentOffset)
             ),
-            context: parallaxHeaderKVOContext
+            context: &parallaxHeaderKVOContext
         )
     }
     
@@ -45,7 +42,7 @@ open class ParallaxView: UIView {
                 #selector(getter: scrollView.contentOffset)
             ),
             options: NSKeyValueObservingOptions.new,
-            context: parallaxHeaderKVOContext
+            context: &parallaxHeaderKVOContext
         )
     }
 }
@@ -147,7 +144,7 @@ public class ParallaxHeader: NSObject {
             return _height + _addedHeight
         }
         set(height) {
-            guard let scrollView = scrollView else {
+            guard  scrollView != nil else {
                     return
             }
             adjustScrollViewTopInset(
@@ -571,7 +568,7 @@ public class ParallaxHeader: NSObject {
         switch pullToRefresh.state {
         case .loading:
           _addedHeight = pullToRefresh.refreshView.frame.size.height
-          var offset = scrollView.contentOffset
+         // var offset = scrollView.contentOffset
           var inset = scrollView.contentInset
           //offset.y = originalInset - (height + _addedHeight)
           inset.top = originalInset + height
@@ -582,7 +579,7 @@ public class ParallaxHeader: NSObject {
             break
           }
           _addedHeight = 0
-          var offset = scrollView.contentOffset
+         // var offset = scrollView.contentOffset
           var inset = scrollView.contentInset
           //offset.y = originalInset + height + _addedHeight
           inset.top = originalInset + height
@@ -592,24 +589,21 @@ public class ParallaxHeader: NSObject {
             break
           }
           _addedHeight = 0
-          var offset = scrollView.contentOffset
+         // var offset = scrollView.contentOffset
           var inset = scrollView.contentInset
           //offset.y = originalInset + height + _addedHeight
           inset.top = originalInset + height
           scrollView.contentInset = inset
         case .releasing(_):
           break
-//          _addedHeight = 0
-        default:
-          _addedHeight = 0
-          break
+
         }
         print(pullToRefresh.state)
         layoutContentView()
        
         return
       }
-        guard context == parallaxHeaderKVOContext,
+        guard context == &parallaxHeaderKVOContext,
             let scrollView = scrollView else {
                 super.observeValue(
                     forKeyPath: keyPath,
