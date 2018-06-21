@@ -29,6 +29,45 @@ public protocol ParallaxAndRefreshCompatible: NSObjectProtocol {
 
 public extension ParallaxAndRefreshCompatible {
   
+  public var normalizedContentOffset: CGPoint {
+    get {
+      if !self.isKind(of: UIScrollView.self) {
+        assertionFailure("The class coforming to ParallaxAndRefreshCompatible protocol is not a child of UIScrollView")
+      }
+      let scrollView = self as! UIScrollView
+      let contentOffset = scrollView.contentOffset
+      let contentInset = self.effectiveContentInset
+      
+      let output = CGPoint(x: contentOffset.x + contentInset.left, y: contentOffset.y + contentInset.top)
+      return output
+    }
+  }
+  
+  public var effectiveContentInset: UIEdgeInsets {
+    get {
+      if !self.isKind(of: UIScrollView.self) {
+        assertionFailure("The class coforming to ParallaxAndRefreshCompatible protocol is not a child of UIScrollView")
+      }
+      let scrollView = self as! UIScrollView
+      if #available(iOS 11, *) {
+        return scrollView.adjustedContentInset
+      } else {
+        return scrollView.contentInset
+      }
+    }
+    
+    set {
+      if !self.isKind(of: UIScrollView.self) {
+        assertionFailure("The class coforming to ParallaxAndRefreshCompatible protocol is not a child of UIScrollView")
+      }
+      let scrollView = self as! UIScrollView
+      if #available(iOS 11.0, *), scrollView.contentInsetAdjustmentBehavior != .never {
+        scrollView.contentInset = newValue - scrollView.safeAreaInsets
+      } else {
+        scrollView.contentInset = newValue
+      }
+    }
+  }
   func addPullToRefresh(_ pullToRefresh: PullToRefresh, action: @escaping () -> ()) {
     if !self.isKind(of: UIScrollView.self) {
       assertionFailure("The class coforming to ParallaxAndRefreshCompatible protocol is not a child of UIScrollView")
